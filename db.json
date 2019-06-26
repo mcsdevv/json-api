@@ -1,0 +1,9 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-api", "author": "test" },
+    { "id": 2, "title": "json-api", "author": "test" },
+    { "id": 3, "title": "json-api", "author": "test" },
+    { "id": 4, "title": "json-api", "author": "test" },
+    { "id": 5, "title": "json-api", "author": "test" }
+  ]
+}
