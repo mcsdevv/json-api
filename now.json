@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "name": "my-express-project",
+  "name": "json-api",
   "builds": [
     { "src": "www/**/*", "use": "@now/static" },
     { "src": "api/**/*.js", "use": "@now/node" }
   ],
   "routes": [
     { "src": "/", "dest": "www/index.html" },
-    { "src": "/api/(.*)", "methods": ["GET"], "dest": "/api/get.js" },
-    { "src": "/api/(.*)", "methods": ["POST"], "dest": "/api/post.js" },
-    { "src": "/api/(.*)", "methods": ["PATCH"], "dest": "/api/patch.js" },
-    { "src": "/api/(.*)", "methods": ["DELETE"], "dest": "/api/delete.js" }
+    { "src": "/api/(.*)", "dest": "/api/get.js" }
   ]
 }
