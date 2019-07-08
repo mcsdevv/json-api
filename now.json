@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "json-api",
+  "alias": "test.test.com",
   "builds": [
     { "src": "www/**/*", "use": "@now/static" },
     { "src": "api/**/*.js", "use": "@now/node" }
